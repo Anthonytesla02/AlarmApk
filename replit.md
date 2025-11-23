@@ -76,9 +76,14 @@ The application is configured for static deployment. When published, the build p
 4. Outputs to the `dist/` directory
 
 ### Important Notes
-- The Gemini API key must be set in production environment secrets
-- The build process injects the API key via Vite's define configuration
+- **SECURITY CONSIDERATION:** This application was originally designed for Google AI Studio and uses a client-side architecture where the Gemini API key is bundled into the frontend JavaScript. This means the API key will be visible to anyone who inspects the deployed application. For personal use only.
+- The Gemini API key must be set in the `GEMINI_API_KEY` secret in Replit
+- The build process injects the API key via Vite's define configuration into the client bundle
 - Tailwind CSS uses CDN in development (should be properly installed for production optimization)
+- **For production use with sensitive API keys, consider:**
+  - Implementing a backend proxy to keep the API key server-side
+  - Using API key restrictions in Google Cloud Console (HTTP referrer restrictions)
+  - Monitoring API usage and setting quotas
 
 ## Recent Changes
 - **2025-11-23:** Initial Replit setup
