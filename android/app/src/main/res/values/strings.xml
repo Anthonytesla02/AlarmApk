@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Gemini Smart Alarm</string>
+    <string name="title_activity_main">Gemini Smart Alarm</string>
+    <string name="package_name">com.gemini.smartalarm</string>
+    <string name="custom_url_scheme">com.gemini.smartalarm</string>
+</resources>
