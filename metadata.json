@@ -1,0 +1,7 @@
+{
+  "name": "Gemini Smart Alarm",
+  "description": "A production-ready, mobile-first alarm clock application enhanced with Gemini AI for smart wake-up motivations and daily briefings.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "short_name": "GeminiAlarm",
+  "name": "Gemini Smart Alarm",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/8832/8832108.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}
